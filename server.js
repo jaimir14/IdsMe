@@ -12,7 +12,7 @@ winston.info('HTTP Config: ', nconf.get('http'));
 const app = express();
 app.use(cors());
 
-app.set('port', nconf.get('http:port'));
+app.set('port', process.env.PORT || nconf.get('http:port'));
 
 require('./models');
 
