@@ -1,0 +1,15 @@
+{
+	"http": {
+	"port": 3001
+	},
+	"logger": {
+		"fileLevel": "error"
+	},
+	"database": {
+		"host": "mongodb://admin:Pa$$word123@ds153239.mlab.com:53239/idsme_db"
+	},
+	"secret": {
+		"key": "cbfullstack",
+		"salt": 10
+	}
+}
